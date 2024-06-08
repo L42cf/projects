@@ -3,6 +3,27 @@
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
+
+/*accordion*/
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} 
+
 var images = {
   "aatrox" : "lolportraits/AatroxSquare.webp",
   "ahri" : "lolportraits/AhriSquare.webp",
@@ -45,6 +66,8 @@ var images = {
   "urgot" : "lolportraits/UrgotSquare.webp",
   "zed" : "lolportraits/ZedSquare.webp",
   }
+
+  
   
   /*fail 1*/
   // var allAudios = document.querySelectorAll('audio');
@@ -209,7 +232,9 @@ var images = {
   
   showProgress();
   }
+  showLiveScore();
   };
+  
   
   function guess(id, guess) {
   var button = document.getElementById(id);
@@ -224,6 +249,12 @@ var images = {
   var currentQuestionNumber = quiz.questionIndex + 1;
   var element = document.getElementById("progress");
   element.innerHTML = "Question " + currentQuestionNumber + " of " + quiz.questions.length;
+  };
+
+  function showLiveScore() {
+  var currentScore = quiz.score;
+  var element = document.getElementById("livescore");
+  element.innerHTML = "Score: " + currentScore + "/" + quiz.questions.length; 
   };
   
   function showScores() {
@@ -374,3 +405,6 @@ var images = {
   var quiz = new Quiz(questions);
   // display quiz
   populate();
+
+
+  

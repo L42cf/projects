@@ -25,46 +25,46 @@ for (i = 0; i < acc.length; i++) {
 } 
 
 var images = {
-  "aatrox" : "lolportraits/AatroxSquare.webp",
-  "ahri" : "lolportraits/AhriSquare.webp",
-  "akali" : "lolportraits/AkaliSquare.webp",
-  "akshan" : "lolportraits/AkshanSquare.webp",
-  "alistar" : "lolportraits/AlistarSquare.webp",
-  "amumu" : "lolportraits/AmumuSquare.webp",
-  "anivia" : "lolportraits/AniviaSquare.webp",
-  "annie" : "lolportraits/AnnieSquare.webp",
-  "aphelios" : "lolportraits/ApheliosSquare.webp",
-  "ashe" : "lolportraits/AsheSquare.webp",
-  "aurelionsol" : "lolportraits/Aurelion_SolSquare.webp",
-  "azir" : "lolportraits/AzirSquare.webp",
-  "bard" : "lolportraits/BardSquare.webp",
-  "belveth" : "lolportraits/BelVethSquare.webp",
-  "blitzcrank" : "lolportraits/BlitzcrankSquare.webp",
-  "brand" : "lolportraits/BrandSquare.webp",
-  "braum" : "lolportraits/BraumSquare.webp",
-  "caitlyn" : "lolportraits/CaitlynSquare.webp",
-  "camille" : "lolportraits/CamilleSquare.webp",
-  "cassiopeia" : "lolportraits/CassiopeiaSquare.webp",
-  "chogath" : "lolportraits/ChoGathSquare.webp",
-  "corki" : "lolportraits/CorkiSquare.webp",
-  "darius" : "lolportraits/DariusSquare.webp",
-  "diana" : "lolportraits/DianaSquare.webp",
-  "draven" : "lolportraits/DravenSquare.webp",
-  "ekko" : "lolportraits/EkkoSquare.webp",
-  "elise" : "lolportraits/EliseSquare.webp",
-  "evelynn" : "lolportraits/EvelynnSquare.webp",
-  "ezreal" : "lolportraits/EzrealSquare.webp",
-  "jhin" : "lolportraits/JhinSquare.webp",
-  "lulu" : "lolportraits/LuluSquare.webp",
-  "lux" : "lolportraits/LuxSquare.webp",
-  "morgana" : "lolportraits/MorganaSquare.webp",
-  "poppy" : "lolportraits/PoppySquare.webp",
-  "pyke" : "lolportraits/PykeSquare.webp",
-  "qiyana" : "lolportraits/QiyanaSquare.webp",
-  "rammus" : "lolportraits/RammusSquare.webp",
-  "seraphine" : "lolportraits/SeraphineSquare.webp",
-  "urgot" : "lolportraits/UrgotSquare.webp",
-  "zed" : "lolportraits/ZedSquare.webp",
+  "Aatrox" : "lolportraits/AatroxSquare.webp",
+  "Ahri" : "lolportraits/AhriSquare.webp",
+  "Akali" : "lolportraits/AkaliSquare.webp",
+  "Akshan" : "lolportraits/AkshanSquare.webp",
+  "Alistar" : "lolportraits/AlistarSquare.webp",
+  "Amumu" : "lolportraits/AmumuSquare.webp",
+  "Anivia" : "lolportraits/AniviaSquare.webp",
+  "Annie" : "lolportraits/AnnieSquare.webp",
+  "Aphelios" : "lolportraits/ApheliosSquare.webp",
+  "Ashe" : "lolportraits/AsheSquare.webp",
+  "AurelionSol" : "lolportraits/Aurelion_SolSquare.webp",
+  "Azir" : "lolportraits/AzirSquare.webp",
+  "Bard" : "lolportraits/BardSquare.webp",
+  "BelVeth" : "lolportraits/BelVethSquare.webp",
+  "Blitzcrank" : "lolportraits/BlitzcrankSquare.webp",
+  "Brand" : "lolportraits/BrandSquare.webp",
+  "Braum" : "lolportraits/BraumSquare.webp",
+  "Caitlyn" : "lolportraits/CaitlynSquare.webp",
+  "Camille" : "lolportraits/CamilleSquare.webp",
+  "Cassiopeia" : "lolportraits/CassiopeiaSquare.webp",
+  "ChoGath" : "lolportraits/ChoGathSquare.webp",
+  "Corki" : "lolportraits/CorkiSquare.webp",
+  "Darius" : "lolportraits/DariusSquare.webp",
+  "Diana" : "lolportraits/DianaSquare.webp",
+  "Draven" : "lolportraits/DravenSquare.webp",
+  "Ekko" : "lolportraits/EkkoSquare.webp",
+  "Elise" : "lolportraits/EliseSquare.webp",
+  "Evelynn" : "lolportraits/EvelynnSquare.webp",
+  "Ezreal" : "lolportraits/EzrealSquare.webp",
+  "Jhin" : "lolportraits/JhinSquare.webp",
+  "Lulu" : "lolportraits/LuluSquare.webp",
+  "Lux" : "lolportraits/LuxSquare.webp",
+  "Morgana" : "lolportraits/MorganaSquare.webp",
+  "Poppy" : "lolportraits/PoppySquare.webp",
+  "Pyke" : "lolportraits/PykeSquare.webp",
+  "Qiyana" : "lolportraits/QiyanaSquare.webp",
+  "Rammus" : "lolportraits/RammusSquare.webp",
+  "Seraphine" : "lolportraits/SeraphineSquare.webp",
+  "Urgot" : "lolportraits/UrgotSquare.webp",
+  "Zed" : "lolportraits/ZedSquare.webp",
   }
 
   
@@ -96,53 +96,53 @@ var images = {
   var i = 0;
   
   /*audio list*/
-  lolsounds[0] = 'lolsound/Urgot_ban.ogg';
-  lolsounds[1] = 'lolsound/Zed_ban.ogg';
-  lolsounds[2] = 'lolsound/ChoGath_ban.ogg';
-  lolsounds[3] = 'lolsound/Diana_ban.ogg';
-  lolsounds[4] = 'lolsound/Ezreal_ban.ogg';
-  lolsounds[5] = 'lolsound/Aatrox_ban.ogg';
-  lolsounds[6] = 'lolsound/Amumu_ban.ogg';
-  lolsounds[7] = 'lolsound/Darius_ban.ogg';
-  lolsounds[8] = 'lolsound/Jhin_ban.ogg';
-  lolsounds[9] = 'lolsound/Cassiopeia_ban.ogg';
-  lolsounds[10] = 'lolsound/Lulu_ban.ogg';
-  lolsounds[11] = 'lolsound/Ahri_ban.ogg';
-  lolsounds[12] = 'lolsound/Lux_ban.ogg';
-  lolsounds[13] = 'lolsound/Braum_ban.ogg';
-  lolsounds[14] = 'lolsound/Qiyana_ban.ogg';
-  lolsounds[15] = 'lolsound/Corki_ban.ogg';
-  lolsounds[16] = 'lolsound/Pyke_ban.ogg';
-  lolsounds[17] = 'lolsound/Seraphine_ban.ogg';
-  lolsounds[18] = 'lolsound/Rammus_ban.ogg';
-  lolsounds[19] = 'lolsound/Camille_ban.ogg';
-  lolsounds[20] = 'lolsound/Caitlyn_ban.ogg';
-  lolsounds[21] = 'lolsound/Elise_ban.ogg';
-  lolsounds[22] = 'lolsound/BelVeth_ban.ogg';
-  lolsounds[23] = 'lolsound/Aphelios_ban.ogg';
-  lolsounds[24] = 'lolsound/Evelynn_ban.ogg';
-  lolsounds[25] = 'lolsound/Azir_ban.ogg';
-  lolsounds[26] = 'lolsound/Ashe_ban.ogg';
-  lolsounds[27] = 'lolsound/Blitzcrank_ban.ogg';
-  lolsounds[28] = 'lolsound/AurelionSol_ban.ogg';
-  lolsounds[29] = 'lolsound/Anivia_ban.ogg';
-  lolsounds[30] = 'lolsound/Bard_ban.ogg';
-  lolsounds[31] = 'lolsound/Morgana_ban.ogg';
-  lolsounds[32] = 'lolsound/Ekko_ban.ogg';
-  lolsounds[33] = 'lolsound/Annie_ban.ogg';
-  lolsounds[34] = 'lolsound/Akshan_ban.ogg';
-  lolsounds[35] = 'lolsound/Brand_ban.ogg';
-  lolsounds[36] = 'lolsound/Alistar_ban.ogg';
-  lolsounds[37] = 'lolsound/Poppy_ban.ogg';
-  lolsounds[38] = 'lolsound/Draven_ban.ogg';
-  lolsounds[39] = 'lolsound/Akali_ban.ogg';
+  lolsounds[0] = 'lolsound/Urgot_Ban.ogg';
+  lolsounds[1] = 'lolsound/Zed_Ban.ogg';
+  lolsounds[2] = 'lolsound/ChoGath_Ban.ogg';
+  lolsounds[3] = 'lolsound/Diana_Ban.ogg';
+  lolsounds[4] = 'lolsound/Ezreal_Ban.ogg';
+  lolsounds[5] = 'lolsound/Aatrox_Ban.ogg';
+  lolsounds[6] = 'lolsound/Amumu_Ban.ogg';
+  lolsounds[7] = 'lolsound/Darius_Ban.ogg';
+  lolsounds[8] = 'lolsound/Jhin_Ban.ogg';
+  lolsounds[9] = 'lolsound/Cassiopeia_Ban.ogg';
+  lolsounds[10] = 'lolsound/Lulu_Ban.ogg';
+  lolsounds[11] = 'lolsound/Ahri_Ban.ogg';
+  lolsounds[12] = 'lolsound/Lux_Ban.ogg';
+  lolsounds[13] = 'lolsound/Braum_Ban.ogg';
+  lolsounds[14] = 'lolsound/Qiyana_Ban.ogg';
+  lolsounds[15] = 'lolsound/Corki_Ban.ogg';
+  lolsounds[16] = 'lolsound/Pyke_Ban.ogg';
+  lolsounds[17] = 'lolsound/Seraphine_Ban.ogg';
+  lolsounds[18] = 'lolsound/Rammus_Ban.ogg';
+  lolsounds[19] = 'lolsound/Camille_Ban.ogg';
+  lolsounds[20] = 'lolsound/Caitlyn_Ban.ogg';
+  lolsounds[21] = 'lolsound/Elise_Ban.ogg';
+  lolsounds[22] = 'lolsound/BelVeth_Ban.ogg';
+  lolsounds[23] = 'lolsound/Aphelios_Ban.ogg';
+  lolsounds[24] = 'lolsound/Evelynn_Ban.ogg';
+  lolsounds[25] = 'lolsound/Azir_Ban.ogg';
+  lolsounds[26] = 'lolsound/Ashe_Ban.ogg';
+  lolsounds[27] = 'lolsound/Blitzcrank_Ban.ogg';
+  lolsounds[28] = 'lolsound/AurelionSol_Ban.ogg';
+  lolsounds[29] = 'lolsound/Anivia_Ban.ogg';
+  lolsounds[30] = 'lolsound/Bard_Ban.ogg';
+  lolsounds[31] = 'lolsound/Morgana_Ban.ogg';
+  lolsounds[32] = 'lolsound/Ekko_Ban.ogg';
+  lolsounds[33] = 'lolsound/Annie_Ban.ogg';
+  lolsounds[34] = 'lolsound/Akshan_Ban.ogg';
+  lolsounds[35] = 'lolsound/Brand_Ban.ogg';
+  lolsounds[36] = 'lolsound/Alistar_Ban.ogg';
+  lolsounds[37] = 'lolsound/Poppy_Ban.ogg';
+  lolsounds[38] = 'lolsound/Draven_Ban.ogg';
+  lolsounds[39] = 'lolsound/Akali_Ban.ogg';
 
 
   function changeSound() {
     document.getElementById('sfx-playa' + i).classList.add('show-hide');
     if (i < lolsounds.length-1) {
       i++;
-      console.log(i);
+      console.log("This is question " + i);
     } else {
       i = 0;
     }
@@ -232,14 +232,14 @@ var images = {
   
   showProgress();
   }
-  showLiveScore();
   };
   
+  var summary = [];
   
   function guess(id, guess) {
   var button = document.getElementById(id);
     button.onclick = function() {
-      quiz.guess(guess);
+      quiz.guess(guess, quiz.getQuestionIndex());
       populate();
       
     }
@@ -251,114 +251,121 @@ var images = {
   element.innerHTML = "Question " + currentQuestionNumber + " of " + quiz.questions.length;
   };
 
-  function showLiveScore() {
-  var currentScore = quiz.score;
-  var element = document.getElementById("livescore");
-  element.innerHTML = "Score: " + currentScore + "/" + quiz.questions.length; 
-  };
+
   
   function showScores() {
-  var gameOverHTML = "<h1>Result</h1>";
-  
-  if (quiz.score == 40) {
-    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> You are a true gamer." + "</h2>";
-  } else if (quiz.score >=32 && quiz.score <40) {
-    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Good job! But you can ace it!" + "</h2>";
-  } else if (quiz.score >=22 && quiz.score <32) {
-    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Keep trying, you can do better." + "</h2>";
-  } else if (quiz.score >=12 && quiz.score <22) {
-    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Were you even trying?" + "</h2>";
-  } else if (quiz.score <= 11) {
-    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Did you just spam one answer?" + "</h2>";
-  }
-  var element = document.getElementById("quiz");
-  
-  element.innerHTML = gameOverHTML;
+    console.log("summary", summary);
+    var gameOverHTML = "<h1>Result</h1>";
+    
+    if (quiz.score == 40) {
+      gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> You are a true gamer." + "</h2>";
+    } else if (quiz.score >=32 && quiz.score <40) {
+      gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Good job! But you can ace it!" + "</h2>";
+    } else if (quiz.score >=22 && quiz.score <32) {
+      gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Keep trying, you can do better." + "</h2>";
+    } else if (quiz.score >=12 && quiz.score <22) {
+      gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Were you even trying?" + "</h2>";
+    } else if (quiz.score <= 11) {
+      gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "/40 <br /> Did you just spam one answer?" + "</h2>";
+    }
+    for (i = 0; i < questions.length; i++) {
+      if (summary[i].isCorrect == true) {
+        gameOverHTML += "<span class='correct'>" + (i+1) + ") " + " <span class='summaryPlaceholder'>SFX:</span> " + "<audio class='no-margin' controls id='sfx-playa" + [i] +"'>" + "<source src='https://github.com/L42cf/projects/blob/main/" + summary[i].soundFile + "?raw=true' id='track'>" + "</audio>" + "<b>  Correct.</b> " + "<span class='normal-answer'>&nbsp;Your&nbsp;Answer:&nbsp;"  + summary[i].answer + "</span></span>";
+      } else if (summary[i].isCorrect == false) {
+        gameOverHTML += "<span class='wrong'>" + (i+1) + ") " + " <span class='summaryPlaceholder'>SFX:</span> " + "<audio class='no-margin' controls id='sfx-playa" + [i] +"'>" + "<source src='https://github.com/L42cf/projects/blob/main/" + summary[i].soundFile + "?raw=true' id='track'>" + "</audio>" + "<b>  Incorrect.</b> " + "<span class='normal'>&nbsp;Your&nbsp;Answer:&nbsp;</span><span class='normal-input'>"  + summary[i].answer + "</span>" + " <span class='normal'> | Correct&nbsp;Answer:&nbsp;</span><span class='normal-answer'>" + summary[i].question + "</span></span>";
+      }
+    }
+    
+    
+    
+    var element = document.getElementById("quiz");
+    
+    element.innerHTML = gameOverHTML;
   };
   
   // create questions
   var questions = [
 
     new Question("Who says this?",
-    ["zed", "jhin", "urgot", "aatrox"], "urgot"),
+    ["Zed", "Jhin", "Urgot", "Aatrox"], "Urgot"),
     new Question("Who says this?",
-    ["jhin", "darius", "pyke", "zed"], "zed"),
+    ["Jhin", "Darius", "Pyke", "Zed"], "Zed"),
     new Question("Who says this?",
-    ["chogath", "aatrox", "belveth", "rammus"], "chogath"),
+    ["ChoGath", "Aatrox", "BelVeth", "Rammus"], "ChoGath"),
     new Question("Who says this?",
-    ["morgana", "cassiopeia", "elise", "diana"], "diana"),
+    ["Morgana", "Cassiopeia", "Elise", "Diana"], "Diana"),
     new Question("Who says this?",
-    ["ezreal", "akshan", "ekko", "draven"], "ezreal"),
+    ["Ezreal", "Akshan", "Ekko", "Draven"], "Ezreal"),
     new Question("Who says this?",
-    ["aatrox", "brand", "urgot", "pyke"], "aatrox"),
+    ["Aatrox", "Brand", "Urgot", "Pyke"], "Aatrox"),
     new Question("Who says this?",
-    ["corki", "amumu", "poppy", "annie"], "amumu"),
+    ["Corki", "Amumu", "Poppy", "Annie"], "Amumu"),
     new Question("Who says this?",
-    ["draven", "aatrox", "urgot", "darius"], "darius"),
+    ["Draven", "Aatrox", "Urgot", "Darius"], "Darius"),
     new Question("Who says this?",
-    ["jhin", "akshan", "aurelionsol", "draven"], "jhin"),
+    ["Jhin", "Akshan", "AurelionSol", "Draven"], "Jhin"),
     new Question("Who says this?",
-    ["akali", "morgana", "cassiopeia", "evelynn"], "cassiopeia"),
+    ["Akali", "Morgana", "Cassiopeia", "Evelynn"], "Cassiopeia"),
     new Question("Who says this?",
-    ["lulu", "poppy", "lux", "annie"], "lulu"),
+    ["Lulu", "Poppy", "Lux", "Annie"], "Lulu"),
     new Question("Who says this?",
-    ["qiyana", "ahri", "caitlyn", "evelynn"], "ahri"),
+    ["Qiyana", "Ahri", "Caitlyn", "Evelynn"], "Ahri"),
     new Question("Who says this?",
-    ["seraphine", "ashe", "lux", "ezreal"], "lux"),
+    ["Seraphine", "Ashe", "Lux", "Ezreal"], "Lux"),
     new Question("Who says this?",
-    ["braum", "jhin", "akshan", "azir"], "braum"),
+    ["Braum", "Jhin", "Akshan", "Azir"], "Braum"),
     new Question("Who says this?",
-    ["qiyana", "draven", "camille", "akshan"], "qiyana"),
+    ["Qiyana", "Draven", "Camille", "Akshan"], "Qiyana"),
     new Question("Who says this?",
-    ["poppy", "corki", "amumu", "rammus"], "corki"),
+    ["Poppy", "Corki", "Amumu", "Rammus"], "Corki"),
     new Question("Who says this?",
-    ["pyke", "aatrox", "urgot", "jhin"], "pyke"),
+    ["Pyke", "Aatrox", "Urgot", "Jhin"], "Pyke"),
     new Question("Who says this?",
-    ["seraphine", "ahri", "akali", "rammus"], "seraphine"),
+    ["Seraphine", "Ahri", "Akali", "Rammus"], "Seraphine"),
     new Question("Who says this?",
-    ["rammus", "ahri", "akali", "seraphine"], "rammus"),
+    ["Rammus", "Ahri", "Akali", "Seraphine"], "Rammus"),
     new Question("Who says this?",
-    ["belveth", "camille", "akali", "caitlyn"], "camille"),
+    ["BelVeth", "Camille", "Akali", "Caitlyn"], "Camille"),
     new Question("Who says this?",
-    ["ashe", "poppy", "camille", "caitlyn"], "caitlyn"),
+    ["Ashe", "Poppy", "Camille", "Caitlyn"], "Caitlyn"),
     new Question("Who says this?",
-    ["elise", "cassiopeia", "evelynn", "diana"], "elise"), 
+    ["Elise", "Cassiopeia", "Evelynn", "Diana"], "Elise"), 
     new Question("Who says this?",
-    ["morgana", "chogath", "belveth", "aatrox"], "belveth"),
+    ["Morgana", "ChoGath", "BelVeth", "Aatrox"], "BelVeth"),
     new Question("Who says this?",
-    ["aurelionsol", "jhin", "bard", "aphelios"], "aphelios"),
+    ["AurelionSol", "Jhin", "Bard", "Aphelios"], "Aphelios"),
     new Question("Who says this?",
-    ["evelynn", "ahri", "morgana", "elise"], "evelynn"),
+    ["Evelynn", "Ahri", "Morgana", "Elise"], "Evelynn"),
     new Question("Who says this?",
-    ["qiyana", "azir", "bard", "aurelionsol"], "azir"),
+    ["Qiyana", "Azir", "Bard", "AurelionSol"], "Azir"),
     new Question("Who says this?",
-    ["belveth", "akali", "evelynn", "ashe"], "ashe"),
+    ["BelVeth", "Akali", "Evelynn", "Ashe"], "Ashe"),
     new Question("Who says this?",
-    ["rammus", "blitzcrank", "azir", "zed"], "blitzcrank"),
+    ["Rammus", "Blitzcrank", "Azir", "Zed"], "Blitzcrank"),
     new Question("Who says this?",
-    ["aurelionsol", "chogath", "jhin", "aatrox"], "aurelionsol"),
+    ["AurelionSol", "ChoGath", "Jhin", "Aatrox"], "AurelionSol"),
     new Question("Who says this?",
-    ["ashe", "anivia", "akali", "caitlyn"], "anivia"),
+    ["Ashe", "Anivia", "Akali", "Caitlyn"], "Anivia"),
     new Question("Who says this?",
-    ["blitzcrank", "aphelios", "aurelionsol", "bard"], "bard"),
+    ["Blitzcrank", "Aphelios", "AurelionSol", "Bard"], "Bard"),
     new Question("Who says this?",
-    ["evelynn", "morgana", "elise", "caitlyn"], "morgana"),
+    ["Evelynn", "Morgana", "Elise", "Caitlyn"], "Morgana"),
     new Question("Who says this?",
-    ["ekko", "akshan", "draven", "rammus"], "ekko"),
+    ["Ekko", "Akshan", "Draven", "Rammus"], "Ekko"),
     new Question("Who says this?",
-    ["lulu", "amumu", "poppy", "annie"], "annie"),
+    ["Lulu", "Amumu", "Poppy", "Annie"], "Annie"),
     new Question("Who says this?",
-    ["alistar", "ezreal", "draven", "akshan"], "akshan"),
+    ["Alistar", "Ezreal", "Draven", "Akshan"], "Akshan"),
     new Question("Who says this?",
-    ["annie", "pyke", "brand", "zed"], "brand"),
+    ["Annie", "Pyke", "Brand", "Zed"], "Brand"),
     new Question("Who says this?",
-    ["alistar", "draven", "braum", "aatrox"], "alistar"),
+    ["Alistar", "Draven", "Braum", "Aatrox"], "Alistar"),
     new Question("Who says this?",
-    ["akali", "evelynn", "lulu", "poppy"], "poppy"),
+    ["Akali", "Evelynn", "Lulu", "Poppy"], "Poppy"),
     new Question("Who says this?",
-    ["draven", "akshan", "ezreal", "rammus"], "draven"),
+    ["Draven", "Akshan", "Ezreal", "Rammus"], "Draven"),
     new Question("Who says this?",
-    ["evelynn", "elise", "ahri", "akali"], "akali"),
+    ["Evelynn", "Elise", "Ahri", "Akali"], "Akali"),
 
   ];
   
@@ -387,12 +394,32 @@ var images = {
   return this.questions[this.questionIndex];
   }
   
-  Quiz.prototype.guess = function(answer) {
-  if (this.getQuestionIndex().isCorrectAnswer(answer)) {
-  this.score++;
-  }
-  
-  this.questionIndex++;
+  Quiz.prototype.guess = function(answer, question) {
+    var isCorrect = false;
+    if (this.getQuestionIndex().isCorrectAnswer(answer)) {
+      this.score++;
+      console.log("You got this correct");
+      isCorrect = true;
+    } else {
+      console.log("You got this wrong");
+      isCorrect = false;
+    }
+
+    // answer = answer
+    // question number = this.questionIndex + 1
+    // isCorrect
+    summary.push({
+      answer: answer,
+      question: question.answer,
+      isCorrect: isCorrect,
+      soundFile: lolsounds[this.questionIndex],
+      // soundBite: document.getElementById('sfx-playa' + (i-1))
+    });
+    console.log("question", question);
+
+    console.log("summary guess", summary);
+    
+    this.questionIndex++;
   }
   
   Quiz.prototype.isEnded = function() {
@@ -405,6 +432,3 @@ var images = {
   var quiz = new Quiz(questions);
   // display quiz
   populate();
-
-
-  

@@ -11241,6 +11241,10 @@ audio::-webkit-media-controls-volume-slider {
     font-family: "lolfont", sans-serif;
     
   }
+  .no-margin {
+    margin: 0;
+    vertical-align: middle;
+  }
   .grid {
     width: 60vw;
     height: auto;
@@ -11281,6 +11285,44 @@ audio::-webkit-media-controls-volume-slider {
     color: #ffc107;
     text-align: center;
     font-size: 30px;
+  }
+  .summaryPlaceholder {
+    font-family: "lolfont", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .summaryResult {
+    font-family: "lolfont", sans-serif;
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+  }
+  .normal {
+    color: black;
+  }
+  .normal-input {
+    color: red;
+    font-weight: bold;
+  }
+  .normal-answer {
+    font-weight: bold;
+    color: green;
+  }
+  .answerShow {
+    color: #ffc107;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: black;
+    font-family: "lolfont";
+  }
+  .correct {
+    color: green;
+    line-height: 94px;
+  }
+  .wrong {
+    color: red;
+    line-height: 94px;
   }
   
   .grid #question {

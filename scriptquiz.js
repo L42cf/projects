@@ -77,23 +77,6 @@ var images = {
   //   });
 
   // }
-  window.onload=function(){
-    document.getElementById('btn0').addEventListener('click', () => {
-    document.querySelectorAll('audio').forEach(el => el.pause());
-    });
-    document.getElementById('btn1').addEventListener('click', () => {
-      document.querySelectorAll('audio').forEach(el => el.pause());
-    });
-    document.getElementById('btn2').addEventListener('click', () => {
-      document.querySelectorAll('audio').forEach(el => el.pause());
-    });
-    document.getElementById('btn3').addEventListener('click', () => {
-      document.querySelectorAll('audio').forEach(el => el.pause());
-    });
-  }
-  
-
-
   var lolsounds = new Array();
   var i = 0;
   
@@ -434,4 +417,19 @@ var images = {
   var quiz = new Quiz(questions);
   // display quiz
 
+  window.onload=function(){
+    document.getElementById('btn0').addEventListener('click', () => {
+    document.querySelectorAll('audio').forEach(el => el.pause());
+    });
+    document.getElementById('btn1').addEventListener('click', () => {
+      document.querySelectorAll('audio').forEach(el => el.pause());
+    });
+    document.getElementById('btn2').addEventListener('click', () => {
+      document.querySelectorAll('audio').forEach(el => el.pause());
+    });
+    document.getElementById('btn3').addEventListener('click', () => {
+      document.querySelectorAll('audio').forEach(el => el.pause());
+    });
+  }
   populate();
+

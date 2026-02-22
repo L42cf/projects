@@ -232,7 +232,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #174874;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11010,8 +11010,14 @@ p.lead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
-  background-color: #d1586b;
+.social-icons .social-twitch:hover {
+  background-color: #9146FF;
+}
+.social-icons .social-twitter:hover {
+  background-color: #1DA1F2;
+}
+.social-icons .social-youtube:hover {
+  background-color: #FF0000;
 }
 
 .dev-icons {

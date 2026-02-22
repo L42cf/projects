@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="David" />
+        <title>Hyurei Soundboard</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
+    </head>
+    <body id="page-top">
+        
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none" style="caret-color: transparent;">Hyurei</span>
+                <span class="d-none d-lg-block navbar-logo" style="caret-color: transparent;"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/hyurei.png" alt="Hyurei profile picture." /></span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item text-white" style="caret-color: transparent;">Hyurei</li>
+                </ul>
+            </div>  
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.twitch.tv/hyureiii" target="_blank"><i class="fab fa-twitch"></i></a>
+                <a class="social-icon" href="https://x.com/reiyaps" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="social-icon" href="https://www.youtube.com/@Hyureiii" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </nav>
+        <!-- Page Content-->
+         <button onclick="topFunction()" id="topButton" title="Go to top">Back to top</button>
+
+        <div class="container-fluid p-0 redxd">
+            <section>
+                <div class="wrapper justify-content-center">
+                    <h1 class="mb-0 d-flex justify-content-center header-padding" style="color: #a3d4ff !important;">
+                        Hyurei Soundboard
+                    </h1>
+                    <div class="full-page">
+                        <span class="d-lg-none center">
+                            <img class="img-icon center rounded-circle mx-auto mb-2" src="images/hyurei.png" alt="Hyurei profile picture." />
+                       </span>
+                    </div>
+                    <div style="padding: 20px;">
+                        <span style="color: #a3d4ff; text-decoration: underline; caret-color: transparent;">CATEGORIES:</span><br />
+                        <h7 id="showallbutton" class="showallbuttoncat" onclick="filterItems('all'), document.getElementById('showallbutton').classList.add('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); }">SHOW&nbsp;ALL</h7>
+
+                        
+
+                        <h7 id="catAngry" class="otherCat" onclick="filterItems('angry'), document.getElementById('showallbutton').classList.remove('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); } document.getElementById('catAngry').classList.add('active');" >angry</h7>
+                        
+                        <h7 id="catBooli" class="otherCat" onclick="filterItems('booli'), document.getElementById('showallbutton').classList.remove('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); } document.getElementById('catBooli').classList.add('active');" >booli</h7>
+
+                        <h7 id="catLoud" class="otherCat" onclick="filterItems('loud'), document.getElementById('showallbutton').classList.remove('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); } document.getElementById('catLoud').classList.add('active');" >loud</h7>
+
+                        <h7 id="catSad" class="otherCat" onclick="filterItems('sad'), document.getElementById('showallbutton').classList.remove('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); } document.getElementById('catSad').classList.add('active');" >sad</h7>
+                        
+                        <h7 id="catScared" class="otherCat" onclick="filterItems('scared'), document.getElementById('showallbutton').classList.remove('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); } document.getElementById('catScared').classList.add('active');" >scared</h7>
+
+                        <h7 id="catScreaming" class="otherCat" onclick="filterItems('screaming'), document.getElementById('showallbutton').classList.remove('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); } document.getElementById('catScreaming').classList.add('active');" >screaming</h7>
+
+                        <h7 id="catSus" class="otherCat" onclick="filterItems('sus'), document.getElementById('showallbutton').classList.remove('active'); for (let catNum = 0; catNum < 7; catNum++) { document.getElementsByClassName('otherCat')[catNum].classList.remove('active'); } document.getElementById('catSus').classList.add('active');" >sus</h7>
+                    </div>
+                    
+                    <div class="rei-content bg-image b-padding" >
+
+                        <div class="rei-sounds">
+                            <button data-audio="sounds/all this for come.MP3" class="sound btn btn-primary item sus">All this for come</button>
+                            <button data-audio="sounds/before we hit the second tower.MP3" class="sound btn btn-primary item">Before we hit the second tower</button>
+                            <button data-audio="sounds/bully your oshi.MP3" class="sound btn btn-primary item booli loud">Bully your cringe oshi</button>
+                            <button data-audio="sounds/customer fault not my fault.MP3" class="sound btn btn-primary item angry loud">Customer fault not my fault</button>
+                            <button data-audio="sounds/disgusted.MP3" class="sound btn btn-primary item">Disgusted</button>
+
+                            <button data-audio="sounds/do i bounce on it.MP3" class="sound btn btn-primary item sus">Do I bounce on it?</button>
+                            <button data-audio="sounds/draw fat mommy milkers.MP3" class="sound btn btn-primary item sus">Draw fat mommy milkers</button>
+                            <button data-audio="sounds/drunk driving would be fun.MP3" class="sound btn btn-primary item">Drunk driving would be fun</button>
+                            <button data-audio="sounds/dum idiot.MP3" class="sound btn btn-primary item booli">Dum idiot</button>
+                            <button data-audio="sounds/excuse me.MP3" class="sound btn btn-primary item">Excuse me</button>
+
+                            <button data-audio="sounds/fk you go next.MP3" class="sound btn btn-primary item angry">Fuck you go next</button>
+                            <button data-audio="sounds/fuck you list.MP3" class="sound btn btn-primary item booli">Fuck you list has space for you</button>
+                            <button data-audio="sounds/fuck your hide and seek.MP3" class="sound btn btn-primary item angry">Fuck your hide and seek</button>
+                            <button data-audio="sounds/gasp.MP3" class="sound btn btn-primary item scared">Gasp</button>
+                            <button data-audio="sounds/hes fucking emoting on me.MP3" class="sound btn btn-primary item angry loud">He's fucking emoting on me</button>
+
+                            <button data-audio="sounds/hi honey.MP3" class="sound btn btn-primary item">Hi honey~</button>
+                            <button data-audio="sounds/holy fuck what are you.MP3" class="sound btn btn-primary item booli">Holy fuck what are you?</button>
+                            <button data-audio="sounds/horror movie scream.MP3" class="sound btn btn-primary item loud scared">Horror movie scream</button>
+                            <button data-audio="sounds/how dare you accuse me.MP3" class="sound btn btn-primary item">How dare you acuse me of such a crime?</button>
+                            <button data-audio="sounds/huh.MP3" class="sound btn btn-primary item loud">Huh?</button>
+
+                            <button data-audio="sounds/i dont wanna play this game anymore.MP3" class="sound btn btn-primary item">I don't want to play this game anymore</button>
+                            <button data-audio="sounds/i fear that that was the last straw.MP3" class="sound btn btn-primary item">I fear that that was the last straw</button>
+                            <button data-audio="sounds/i feel nothing.MP3" class="sound btn btn-primary item">I feel nothing</button>
+                            <button data-audio="sounds/i feel the tears.MP3" class="sound btn btn-primary item sad scared">I feel the tears</button>
+                            <button data-audio="sounds/i give head.MP3" class="sound btn btn-primary item sus">I give head</button>
+
+                            <button data-audio="sounds/i hate my community.MP3" class="sound btn btn-primary item booli">I HATE my community &lt;&#47;3</button>
+                            <button data-audio="sounds/i have to be a man.MP3" class="sound btn btn-primary item angry">I have to be a man?!</button>
+                            <button data-audio="sounds/i think im cute.MP3" class="sound btn btn-primary item">I think I'm cute </button>
+                            <button data-audio="sounds/i tried every letter.MP3" class="sound btn btn-primary item">I tried every letter</button>
+                            <button data-audio="sounds/i want anything that fits in my mouth in my mouth.MP3" class="sound btn btn-primary item sus">I want anything that fits in my mouth, in my mouth</button>
+
+                            <button data-audio="sounds/i want to do it.MP3" class="sound btn btn-primary item angry loud">I want to do it!!</button>
+                            <button data-audio="sounds/i wasnt listening.MP3" class="sound btn btn-primary item">I wasn't listening</button>
+                            <button data-audio="sounds/im deleting the vod cute.MP3" class="sound btn btn-primary item">I'm deleting this vod (cute)</button>
+                            <button data-audio="sounds/im deleting the vod mad.MP3" class="sound btn btn-primary item angry loud">I'm deleting this vod (mad)</button>
+                            <button data-audio="sounds/im going to regret looking at the vod.MP3" class="sound btn btn-primary item">I'm going to regret looking at the VOD</button>
+
+                            <button data-audio="sounds/im gonna crash out.MP3" class="sound btn btn-primary item angry">I'm gonna fucking crash out</button>
+                            <button data-audio="sounds/im in the silly room.MP3" class="sound btn btn-primary item scared">I'm in the silly room</button>
+                            <button data-audio="sounds/im not clip farming.MP3" class="sound btn btn-primary item">I'm not clip farming</button>
+                            <button data-audio="sounds/im not sus.MP3" class="sound btn btn-primary item">I'm not sus</button>
+                            <button data-audio="sounds/im sexy shes busted.MP3" class="sound btn btn-primary item booli">I'm also sexy</button>
+
+                            <button data-audio="sounds/inhumane scream.MP3" class="sound btn btn-primary item scared screaming">Inhumane scream</button>
+                            <button data-audio="sounds/is this rizz.MP3" class="sound btn btn-primary item">Is this rizz?</button>
+                            <button data-audio="sounds/its not that kind of stream buddy.MP3" class="sound btn btn-primary item">It's not that kind of stream</button>
+                            <button data-audio="sounds/jumpscare now.MP3" class="sound btn btn-primary item scared">Jump scare now?</button>
+                            <button data-audio="sounds/let me move the mic away.MP3" class="sound btn btn-primary item">Let me move the mic away</button>
+
+                            <button data-audio="sounds/me too girl.MP3" class="sound btn btn-primary item">Me too girl</button>
+                            <button data-audio="sounds/mouse mold.MP3" class="sound btn btn-primary item sus">Mouse molded to my shape</button>
+                            <button data-audio="sounds/my ass isnt fat enough.MP3" class="sound btn btn-primary item sus">My ass isn't fat enough</button>
+                            <button data-audio="sounds/next question.MP3" class="sound btn btn-primary item">Next question</button>
+                            <button data-audio="sounds/nosebleed.MP3" class="sound btn btn-primary item">Nosebleed</button>
+
+                            <button data-audio="sounds/oh no.MP3" class="sound btn btn-primary item">Oh no!</button>
+                            <button data-audio="sounds/okay im scared.MP3" class="sound btn btn-primary item scared">Okay I'm scared</button>
+                            <button data-audio="sounds/pp up scream.MP3" class="sound btn btn-primary item">PP up?</button>
+                            <button data-audio="sounds/rude as hell.MP3" class="sound btn btn-primary item angry booli">Rude as hell</button>
+                            <button data-audio="sounds/scared of gays.MP3" class="sound btn btn-primary item loud scared screaming">Scared of the closet</button>
+
+                            <button data-audio="sounds/scream cry.MP3" class="sound btn btn-primary item loud scared screaming">Scream cry</button>
+                            <button data-audio="sounds/scream1.MP3" class="sound btn btn-primary item loud screamin">Scream deathrattle</button>
+                            <button data-audio="sounds/scream potato.MP3" class="sound btn btn-primary item angry loud scared screaming">Scream potato</button>
+                            <button data-audio="sounds/scream the way.MP3" class="sound btn btn-primary item scared">Scream the way he...</button>
+                            <button data-audio="sounds/shorter girls.MP3" class="sound btn btn-primary item angry booli">Shorter girls drag you to hell</button>
+                            
+                            <button data-audio="sounds/squeaking to the gods.MP3" class="sound btn btn-primary item sad">Squeaking to the gods about checkpoint</button>
+                            <button data-audio="sounds/stop saying things out loud.MP3" class="sound btn btn-primary item">Stop saying things out loud</button>
+                            <button data-audio="sounds/streaming is hard.MP3" class="sound btn btn-primary item sad">Streaming is hard</button>
+                            <button data-audio="sounds/sus noises.MP3" class="sound btn btn-primary item sus">Sus unidentified noise</button>
+                            <button data-audio="sounds/thanks for 5 dollars idiot.MP3" class="sound btn btn-primary item booli">Thanks for 5 dollars idiot</button>
+
+                            <button data-audio="sounds/that wasnt funny.MP3" class="sound btn btn-primary item scared">That wasn't funny</button>
+                            <button data-audio="sounds/that wasnt scary.MP3" class="sound btn btn-primary item loud sad scared screaming">That wasn't scary, or was it</button>
+                            <button data-audio="sounds/thats a lot of big words for elmo.MP3" class="sound btn btn-primary item">That's a lot of big words for elmo</button>
+                            <button data-audio="sounds/thats a representation of my cock.MP3" class="sound btn btn-primary item sus">That's a representation of my cock</button>
+                            <button data-audio="sounds/thats making me a little sad.MP3" class="sound btn btn-primary item sad">That's making me a little sad</button>
+
+                            <button data-audio="sounds/the anticipation.MP3" class="sound btn btn-primary item scared">The anticpation stutter</button>
+                            <button data-audio="sounds/theres a blue liquid.MP3" class="sound btn btn-primary item sus">There's a blue liquid</button>
+                            <button data-audio="sounds/thighs gotta be big.MP3" class="sound btn btn-primary item sus">Thighs? Gotta be big</button>
+                            <button data-audio="sounds/to bust or not to bust.MP3" class="sound btn btn-primary item sus">To bust or not to bust</button>
+                            <button data-audio="sounds/too tiny.MP3" class="sound btn btn-primary item booli">Too tiny</button>
+
+                            <button data-audio="sounds/took victory away from me.MP3" class="sound btn btn-primary item">Took victory away</button>
+                            <button data-audio="sounds/wake up.MP3" class="sound btn btn-primary item loud">WAKE UP</button>
+                            <button data-audio="sounds/we love pretty women.MP3" class="sound btn btn-primary item">We love pretty women</button>
+                            <button data-audio="sounds/what do bad asses say.MP3" class="sound btn btn-primary item sus">What do bad ass people say?</button>
+                            <button data-audio="sounds/what i meant was.MP3" class="sound btn btn-primary item">What I meant was...</button>
+
+                            <button data-audio="sounds/who wouldnt trust me.MP3" class="sound btn btn-primary item">Who wouldn't trust me?</button>
+                            <button data-audio="sounds/why is my brain so small.MP3" class="sound btn btn-primary item">Why is my brain so small?</button>
+                            <button data-audio="sounds/wood eater.MP3" class="sound btn btn-primary item sus">Wood eater</button>
+                            <button data-audio="sounds/you found a gem.MP3" class="sound btn btn-primary item">You found a gem!</button>
+                            <button data-audio="sounds/your moms a hoe.MP3" class="sound btn btn-primary item">Your mom's a hoe</button>
+                            
+                            <br>
+                            <br>
+
+                            <p style="color: white; padding-left: 20px; padding-right: 20px;">If you would like to submit a clip, <a href="https://forms.gle/iGrASvXRCxNMfN7Z7" target="_blank">click here</a> to be taken to a submission form.</p>
+
+                            <p style="color: white; padding-left: 20px; padding-right: 20px;">&copy; <span id="year"></span> David/Ducky/L42cf <br />All sounds are courtesy of Hyurei. Please go follow her with the social icons posted! <br />Background art done by FreeNachos, a talented and wonderful part of the community!</p>
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <footer class="footer justify-content-center">
+            <div class="audio-player justify-content-center">
+                <audio id="playa" controls>
+                    <source src="">
+                </audio> 
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+        <script>
+            window.onload = function() {
+                document.getElementById("showallbutton").classList.add("active");
+            };
+        </script>
+    </body>
+</html>
